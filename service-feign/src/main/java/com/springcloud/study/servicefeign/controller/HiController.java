@@ -7,6 +7,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @author wufeng@chetong.net
+ * @date 2017-11-27 11:00
+ *
+ */
 @RestController
 public class HiController {
 

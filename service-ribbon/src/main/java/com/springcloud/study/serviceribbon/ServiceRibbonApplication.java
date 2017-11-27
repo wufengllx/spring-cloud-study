@@ -9,6 +9,11 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * @author wufeng@chetong.net
+ * @date 2017-11-27 11:00
+ *
+ */
 @EnableDiscoveryClient
 @EnableHystrixDashboard
 @EnableHystrix

@@ -5,6 +5,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * @author wufeng@chetong.net
+ * @date 2017-11-27 11:00
+ *
+ */
 @Service
 public class HelloService {
 

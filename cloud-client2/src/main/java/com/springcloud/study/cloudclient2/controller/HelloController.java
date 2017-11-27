@@ -8,6 +8,11 @@ import org.springframework.web.client.RestTemplate;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * @author wufeng@chetong.net
+ * @date 2017-11-27 11:00
+ *
+ */
 @RestController
 public class HelloController {
     private static final Logger log = Logger.getLogger(HelloController.class.getName());

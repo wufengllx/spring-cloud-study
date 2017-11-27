@@ -4,6 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
+/**
+ * @author wufeng@chetong.net
+ * @date 2017-11-27 11:00
+ *
+ */
 @EnableConfigServer
 @SpringBootApplication
 public class ConfigServerApplication {
