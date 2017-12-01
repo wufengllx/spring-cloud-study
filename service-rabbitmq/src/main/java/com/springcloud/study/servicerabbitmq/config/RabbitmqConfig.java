@@ -17,7 +17,6 @@ public class RabbitmqConfig {
 
     @Bean
     public Queue userQueue(){
-        System.out.println("==========================user");
         return new Queue("user.queue",true);
     }
 

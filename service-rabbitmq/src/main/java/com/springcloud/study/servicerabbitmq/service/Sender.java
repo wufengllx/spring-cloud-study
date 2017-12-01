@@ -47,6 +47,7 @@ public class Sender implements RabbitTemplate.ConfirmCallback,RabbitTemplate.Ret
         String response = rabbitTemplate.convertSendAndReceive("topicExchange", "key.1", msg, correlationId).toString();
         System.out.println("结束发送消息 : " + msg.toLowerCase());
         System.out.println("消费者响应 : " + response + " 消息处理完成");
+        System.out.println("-----------------------------------------------------------");
     }
 
 }
